@@ -1,0 +1,132 @@
+html{
+    background-color: #B5CB99;
+    color: #FCE09B;
+    padding: 0;
+    margin: 10px;
+}
+
+.introduction-background{
+    background-color: #186F65;
+}
+
+.resume-background{
+    background-color: #186F65;
+}
+
+.title-container{
+    border: 5px solid black;
+}
+.profile-picture{
+    border-radius: 50%;
+    height: 200px;
+    width: auto;
+}
+.picture-container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.introduction-container{
+    text-align: center;
+    border: 5px solid #B2533E;
+    padding: 10px;
+}
+.resume-container{
+   display: grid;
+   grid-template-columns: 1fr 1fr ;
+   gap: 10px;
+    border: 5px solid #B2533E;
+    margin-top: 2px;
+}
+
+.introduction-p{
+    font-size: 1.25rem;
+}
+
+h1{
+    font-size: 2.5rem;
+    font-family: 'Young Serif', serif;
+}
+li{
+    font-size: 1.25rem;
+    font-family: 'Saira Semi Condensed', sans-serif;
+}
+p{
+    font-family: 'Saira Semi Condensed', sans-serif;
+    font-size: 1.25rem;
+}
+
+.education-div{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+}
+.experience-div{
+    width: 100%;
+    height: auto;
+    border-left:5px solid #B2533E;
+    padding: 10px;
+}
+.projects-container{
+    height: auto;
+    border: 5px solid #B2533E;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    padding: 10px;
+}
+.projects-background{
+    background-color: #186F65;
+}
+.about-me-background{
+    background-color: #186F65;
+    border: 5px solid #B2533E;
+    padding: 10px;
+}
+.contact-me-background{
+    background-color: #186F65;
+    border: 5px solid #B2533E;
+    margin-top: 2px;
+    padding: 10px;
+}
+h3{
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: 'Young Serif', serif;
+}
+
+a{
+    color: white
+}
+.contact-me-text{
+    text-align: center;
+    font-size: 1.25rem;
+}
+
+.about-me-text{
+    text-align: center;
+    
+}
+
+.footer-backgroud{
+    background-color: #186F65;
+    border: 5px solid #B2533E;
+    padding: 10px;
+}
+
+.footer-container{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    justify-content: center;
+    background-color: #186F65;
+    border: 5px solid #B2533E;
+    padding: 10px;
+}
+
+.footer-text{
+    text-align: center;
+    background-color: #186F65;
+    border: 5px solid #B2533E;
+    padding: 10px;
+    margin-top: 0;
+}
